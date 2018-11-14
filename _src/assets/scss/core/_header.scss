@@ -1,0 +1,41 @@
+$color-mint: #98FB98;
+
+.page__wrapper {
+    background-color: $color-mint;
+    text-align: center;
+
+}
+
+.header__menu {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media all and (min-width: 768px) {
+
+    .page__wrapper{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin-left: 5%;
+        margin-right: 23%;        
+    }
+
+    .header__menu {
+        margin-right: 5%;
+        flex-grow: 1;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .page__wrapper{
+        background-color: red;
+        width: 981px;
+        margin: 0 auto;
+    }
+}
